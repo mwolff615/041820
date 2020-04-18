@@ -1,4 +1,4 @@
-#day 1 
+'''#day 1 
 
 #pre-course survey
     #https://docs.google.com/forms/d/1sLm3W-IT1SON14nHPcDX5AggjQDL6GF6a0khNXpbvMc/viewform?edit_requested=true
@@ -22,11 +22,6 @@ a = 'this is a message'
 print(a)
 
 print('111')
-print("""triple quotes
-like this""")
-
-print('''multiline 
-comment''')
 
 print("hello " + "world") #concatenation 
 
@@ -105,7 +100,32 @@ y = x + 10
 print("your number plus 10: " + str(y))
 
 name = str(input("What is your name? "))
-print("Your name is " + name)
+print("Your name is " + name)'''
 
 #comment
-#line 19
+#line 106
+
+#Almost Day 2
+print('x')
+
+#can do this to avoid having to comment everything out 
+import os 
+os.system('clear')
+
+userNumber = int(input("Enter a number:"))
+
+#conditionals 
+if(userNumber == 10): 
+    print("Your number is 10")
+else: 
+    print("Your number is not 10")
+
+if(userNumber == 80):
+    print("80 is epic")
+else:
+    if(userNumber == 0):
+        print("the void")
+    else:
+        print("You didn't put a lucky number")
+
+#Day 2 (for real)
