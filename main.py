@@ -128,4 +128,4 @@ else:
     else:
         print("You didn't put a lucky number")
 
-#Day 2 (for real)
+#day 2 (for real)
